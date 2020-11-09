@@ -1,0 +1,40 @@
+body {
+    background-color:gray;
+    font-family: 'Goldman', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    padding-top: 5%;
+    font-size: 100px;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#busca {
+    font-family: 'Goldman', cursive;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 40px;
+    border-radius: 40px;
+    background-color: rgb(54, 52, 151)
+}
+
+h2 {
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 80px;
+}
+
+p {
+    font-size: 40px;
+    justify-text: center;
+}
