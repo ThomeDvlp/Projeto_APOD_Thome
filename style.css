@@ -1,40 +1,63 @@
+header {
+    display:flex;
+    padding: 1% 0 0 0;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo {
+    padding: 0 0 0 5%;
+}
+
 body {
-    background-color:gray;
-    font-family: 'Goldman', cursive;
+    background-color:rgb(255, 255, 255);
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
 
-header {
-    padding-top: 5%;
-    font-size: 100px;
-}
-
-
 div {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.conteudo {
+    display: flex;
+
     flex-direction: column;
 }
 
 #busca {
-    font-family: 'Goldman', cursive;
-    margin-top: 50px;
-    margin-left: 40%;
-    margin-right: 40%;
+    font-family: 'Roboto';
+    color: white;
     font-size: 40px;
-    border-radius: 40px;
-    background-color: rgb(54, 52, 151)
+    border-radius: 6px;
+    background-color: rgb(54, 52, 151);
+    margin: 0 0 0 1%
+}
+
+#img {
+    height: 50vh;
+    margin: 0 0 2% 0;
+}
+
+h1 {
+    font-size: 1.6rem
 }
 
 h2 {
-    padding-top:20px;
-    padding-bottom: 20px;
-    font-size: 80px;
+    padding:1% 0 1% 0;
+    font-size: 1.8rem;
 }
 
 p {
-    font-size: 40px;
-    justify-text: center;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 10% 0 10%;
 }
